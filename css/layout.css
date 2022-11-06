@@ -1,0 +1,17 @@
+/*Layout*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.card{
+    /* flex-basis: var(--width-mobil);
+    flex-grow: 1;
+    flex-shrink: 1; */
+    flex: 1 1 var(--width-mobil); /*https://developer.mozilla.org/es/docs/Web/CSS/flex*/
+}
+
+.card.card__header{
+    flex-basis: 100%;
+}

@@ -1,0 +1,11 @@
+:root{
+    --width-mobil: 375px;
+    --width-desktop: 1440px;
+    --border-radius: .3rem;
+    /* Primary color*/
+    --primary-1: hsl(179, 62%, 43%);
+    --primary-2: hsl(71, 73%, 54%);
+    /* Neutral color */
+    --neutral-1: hsl(204, 43%, 93%);
+    --neutral-2: hsl(218, 22%, 67%);
+}
